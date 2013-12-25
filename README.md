@@ -1,6 +1,9 @@
 App-Inventor-2-VM-Sources
 =========================
 
+If you have your own linux box and want to try out App Inventor locally, please follow the instructions -
+(You must have Apache Ant and Oracle Java 7 installed) 
+
 * "Git clone" the folder - App-Inventor-2-VM-Sources
 
 * Place that into your desired location
