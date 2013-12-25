@@ -1,0 +1,290 @@
+Dec 25, 2013 12:16:58 AM com.sun.jersey.api.core.ClasspathResourceConfig init
+INFO: Scanning for root resource and provider classes in the paths:
+  activation-1.1.jar
+  jersey-bundle-1.3.jar
+  args4j-2.0.18.jar
+  jersey-multipart-1.3.jar
+  asm-3.1.jar
+  jettison-1.1.jar
+  BuildServer.jar
+  json.jar
+  CommonUtils.jar
+  jsr311-api-1.1.1.jar
+  CommonVersion.jar
+  localizer.jar
+  FastInfoset-1.2.2.jar
+  mail-1.4.jar
+  grizzly-servlet-webserver-1.9.18-i.jar
+  commons-io-2.0.1.jar
+  guava-14.0.1.jar
+  rome-0.9.jar
+  http-20070405.jar
+  bcprov-jdk15on-149.jar
+  bcpkix-jdk15on-149.jar
+  sdklib.jar
+  jackson-core-asl-1.9.4.jar
+  stax-api-1.0-2.jar
+  jaxb-api-2.1.jar
+  wadl2java.jar
+  jaxb-impl-2.1.10.jar
+  wadl-cmdline.jar
+  jaxb-xjc.jar
+  wadl-core.jar
+  jdom-1.0.jar
+Dec 25, 2013 12:17:00 AM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.google.appinventor.buildserver.BuildServer
+Dec 25, 2013 12:17:00 AM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Dec 25, 2013 12:17:00 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.3 06/17/2010 05:04 PM'
+Dec 25, 2013 12:17:01 AM com.sun.grizzly.Controller logVersion
+INFO: Starting Grizzly Framework 1.9.18-i - Wed Dec 25 00:17:01 EST 2013
+Dec 25, 2013 12:17:01 AM com.google.appinventor.buildserver.BuildServer main
+INFO: App Inventor Build Server - Version: nls-129-gcc72bd1
+Dec 25, 2013 12:17:01 AM com.google.appinventor.buildserver.BuildServer main
+INFO: App Inventor Build Server - Git Fingerprint: cc72bd1080da847c5202cb38a34e36e2ae3a83f0
+Dec 25, 2013 12:17:01 AM com.google.appinventor.buildserver.BuildServer main
+INFO: Running at: http://127.0.1.1:9990/buildserver
+Dec 25, 2013 12:17:01 AM com.google.appinventor.buildserver.BuildServer main
+INFO: Maximum simultanous builds = unlimited!
+Dec 25, 2013 12:17:01 AM com.google.appinventor.buildserver.BuildServer main
+INFO: Visit: http://127.0.1.1:9990/buildserver/health for server health
+Dec 25, 2013 12:17:01 AM com.google.appinventor.buildserver.BuildServer main
+INFO: Visit: http://127.0.1.1:9990/buildserver/vars for server values
+Dec 25, 2013 12:17:01 AM com.google.appinventor.buildserver.BuildServer main
+INFO: Server running
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.BuildServer buildAllFromZipFileAsync
+INFO: requiredHosts is not set, no restriction on callback url.
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: START NEW BUILD 1
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 8682648 bytes
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.ProjectBuilder build
+INFO: temporary project root: /tmp/1387948651779_0.6164593780973102-0
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387948651779_0.6164593780973102-0/src/appinventor/ai_test/HelloWorld/Screen1.bky from input zip
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387948651779_0.6164593780973102-0/src/appinventor/ai_test/HelloWorld/Screen1.scm from input zip
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387948651779_0.6164593780973102-0/src/appinventor/ai_test/HelloWorld/Screen1.yail from input zip
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/project.properties from input zip
+Dec 25, 2013 12:17:31 AM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387948651779_0.6164593780973102-0/android.keystore from input zip
+Libraries needed, n= 0
+Native Libraries needed, n= 0
+Component assets needed, n= 0
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 10%
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Compiler generatePermissions
+INFO: usesLocation = False
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 15%
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Compiler writeAndroidManifest
+INFO: VCode: 1
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Compiler writeAndroidManifest
+INFO: VName: 1.0
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 20%
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Compiler generateClasses
+INFO: source file: /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../src/appinventor/ai_test/HelloWorld/Screen1.yail
+Libraries Classpath, n 0
+Libraries Classpath = /tmp/kawa3085801901094692110.jar:/tmp/acra-4.4.04898890145834661642.jar:/tmp/AndroidRuntime1429894369876686414.jar:/tmp/android1795780213646039113.jar
+Dec 25, 2013 12:17:32 AM com.google.appinventor.buildserver.Execution execute
+INFO: ____Executing /usr/lib/jvm/java-7-oracle/jre/bin/java -mx1848M -cp /tmp/kawa3085801901094692110.jar:/tmp/acra-4.4.04898890145834661642.jar:/tmp/AndroidRuntime1429894369876686414.jar:/tmp/android1795780213646039113.jar kawa.repl -f /tmp/runtime7286994403497167777.scm -d /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/classes -P appinventor.ai_test.HelloWorld. -C /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../src/appinventor/ai_test/HelloWorld/Screen1.yail /tmp/runtime7286994403497167777.scm
+Dec 25, 2013 12:17:33 AM com.google.appinventor.buildserver.Compiler generateClasses
+INFO: Kawa compile time: 1.344 seconds
+Dec 25, 2013 12:17:33 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 35%
+Libraries needed command line n = 0
+Libraries command line = [/usr/lib/jvm/java-7-oracle/jre/bin/java, -mx1848M, -jar, /tmp/dx_4578279238723245596.jar, --dex, --positions=lines, --output=/tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/tmp/classes.dex, /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/classes, /tmp/AndroidRuntime1429894369876686414.jar, /tmp/kawa3085801901094692110.jar, /tmp/acra-4.4.04898890145834661642.jar]
+Dec 25, 2013 12:17:33 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 50%
+Dec 25, 2013 12:17:33 AM com.google.appinventor.buildserver.Execution execute
+INFO: ____Executing /usr/lib/jvm/java-7-oracle/jre/bin/java -mx1848M -jar /tmp/dx_4578279238723245596.jar --dex --positions=lines --output=/tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/tmp/classes.dex /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/classes /tmp/AndroidRuntime1429894369876686414.jar /tmp/kawa3085801901094692110.jar /tmp/acra-4.4.04898890145834661642.jar
+Dec 25, 2013 12:17:54 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 75%
+Dec 25, 2013 12:17:54 AM com.google.appinventor.buildserver.Compiler runDx
+INFO: DX time: 20.965 seconds
+Dec 25, 2013 12:17:54 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 85%
+Dec 25, 2013 12:17:54 AM com.google.appinventor.buildserver.Execution execute
+INFO: ____Executing /tmp/aapt6899949349760858627 package -v -f -M /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/AndroidManifest.xml -S /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res -A /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../assets -I /tmp/android1795780213646039113.jar -F /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/deploy/HelloWorld.ap_
+Found 0 custom asset files in /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../assets
+Configurations:
+ (default)
+
+Files:
+  anim/fadein.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/fadein.xml
+  anim/fadeout.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/fadeout.xml
+  anim/hold.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/hold.xml
+  anim/slide_enter.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_enter.xml
+  anim/slide_enter_reverse.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_enter_reverse.xml
+  anim/slide_exit.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_exit.xml
+  anim/slide_exit_reverse.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_exit_reverse.xml
+  anim/slide_v_enter.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_enter.xml
+  anim/slide_v_enter_reverse.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_enter_reverse.xml
+  anim/slide_v_exit.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_exit.xml
+  anim/slide_v_exit_reverse.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_exit_reverse.xml
+  anim/zoom_enter.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_enter.xml
+  anim/zoom_enter_reverse.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_enter_reverse.xml
+  anim/zoom_exit.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_exit.xml
+  anim/zoom_exit_reverse.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_exit_reverse.xml
+  drawable/ya.png
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/drawable/ya.png
+  AndroidManifest.xml
+    Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/AndroidManifest.xml
+
+Resource Dirs:
+  Type drawable
+    drawable/ya.png
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/drawable/ya.png
+  Type anim
+    anim/fadein.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/fadein.xml
+    anim/fadeout.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/fadeout.xml
+    anim/hold.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/hold.xml
+    anim/slide_enter.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_enter.xml
+    anim/slide_enter_reverse.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_enter_reverse.xml
+    anim/slide_exit.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_exit.xml
+    anim/slide_exit_reverse.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_exit_reverse.xml
+    anim/slide_v_enter.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_enter.xml
+    anim/slide_v_enter_reverse.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_enter_reverse.xml
+    anim/slide_v_exit.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_exit.xml
+    anim/slide_v_exit_reverse.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_exit_reverse.xml
+    anim/zoom_enter.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_enter.xml
+    anim/zoom_enter_reverse.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_enter_reverse.xml
+    anim/zoom_exit.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_exit.xml
+    anim/zoom_exit_reverse.xml
+      Src: () /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_exit_reverse.xml
+Including resources from package: /tmp/android1795780213646039113.jar
+applyFileOverlay for drawable
+applyFileOverlay for layout
+applyFileOverlay for anim
+applyFileOverlay for animator
+applyFileOverlay for interpolator
+applyFileOverlay for xml
+applyFileOverlay for raw
+applyFileOverlay for color
+applyFileOverlay for menu
+applyFileOverlay for mipmap
+Processing image: /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/drawable/ya.png
+    (processed image /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/drawable/ya.png: 103% size of source)
+    (new resource id ya from drawable/ya.png #generated)
+    (new resource id fadein from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/fadein.xml)
+    (new resource id fadeout from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/fadeout.xml)
+    (new resource id hold from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/hold.xml)
+    (new resource id slide_enter from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_enter.xml)
+    (new resource id slide_enter_reverse from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_enter_reverse.xml)
+    (new resource id slide_exit from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_exit.xml)
+    (new resource id slide_exit_reverse from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_exit_reverse.xml)
+    (new resource id slide_v_enter from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_enter.xml)
+    (new resource id slide_v_enter_reverse from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_enter_reverse.xml)
+    (new resource id slide_v_exit from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_exit.xml)
+    (new resource id slide_v_exit_reverse from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/slide_v_exit_reverse.xml)
+    (new resource id zoom_enter from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_enter.xml)
+    (new resource id zoom_enter_reverse from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_enter_reverse.xml)
+    (new resource id zoom_exit from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_exit.xml)
+    (new resource id zoom_exit_reverse from /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/res/anim/zoom_exit_reverse.xml)
+Creating '/tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/deploy/HelloWorld.ap_'
+Writing all files...
+      'res/anim/fadein.xml' (compressed 51%)
+      'res/anim/fadeout.xml' (compressed 51%)
+      'res/anim/hold.xml' (compressed 53%)
+      'res/anim/slide_enter.xml' (compressed 52%)
+      'res/anim/slide_enter_reverse.xml' (compressed 52%)
+      'res/anim/slide_exit.xml' (compressed 53%)
+      'res/anim/slide_exit_reverse.xml' (compressed 52%)
+      'res/anim/slide_v_enter.xml' (compressed 52%)
+      'res/anim/slide_v_enter_reverse.xml' (compressed 52%)
+      'res/anim/slide_v_exit.xml' (compressed 52%)
+      'res/anim/slide_v_exit_reverse.xml' (compressed 52%)
+      'res/anim/zoom_enter.xml' (compressed 57%)
+      'res/anim/zoom_enter_reverse.xml' (compressed 58%)
+      'res/anim/zoom_exit.xml' (compressed 59%)
+      'res/anim/zoom_exit_reverse.xml' (compressed 60%)
+      'res/drawable/ya.png' (not compressed)
+      'AndroidManifest.xml' (compressed 68%)
+      'resources.arsc' (not compressed)
+Generated 18 files
+Included 0 files from jar/zip files.
+Checking for deleted files
+Done!
+Dec 25, 2013 12:17:54 AM com.google.appinventor.buildserver.Compiler runAaptPackage
+INFO: AAPT time: 0.095 seconds
+Dec 25, 2013 12:17:54 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 90%
+Packaging HelloWorld.apk
+/tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/deploy/HelloWorld.ap_:
+=> res/anim/fadein.xml
+=> res/anim/fadeout.xml
+=> res/anim/hold.xml
+=> res/anim/slide_enter.xml
+=> res/anim/slide_enter_reverse.xml
+=> res/anim/slide_exit.xml
+=> res/anim/slide_exit_reverse.xml
+=> res/anim/slide_v_enter.xml
+=> res/anim/slide_v_enter_reverse.xml
+=> res/anim/slide_v_exit.xml
+=> res/anim/slide_v_exit_reverse.xml
+=> res/anim/zoom_enter.xml
+=> res/anim/zoom_enter_reverse.xml
+=> res/anim/zoom_exit.xml
+=> res/anim/zoom_exit_reverse.xml
+=> res/drawable/ya.png
+=> AndroidManifest.xml
+=> resources.arsc
+/tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/tmp/classes.dex => classes.dex
+Dec 25, 2013 12:17:55 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 95%
+Dec 25, 2013 12:17:55 AM com.google.appinventor.buildserver.Execution execute
+INFO: ____Executing /usr/lib/jvm/java-7-oracle/jre/../bin/jarsigner -digestalg SHA1 -sigalg MD5withRSA -keystore /tmp/1387948651779_0.6164593780973102-0/android.keystore -storepass android /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/deploy/HelloWorld.apk AndroidKey
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.Execution execute
+INFO: ____Executing /tmp/zipalign107638666060944165 -f 4 /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/deploy/HelloWorld.apk /tmp/1387948651779_0.6164593780973102-0/youngandroidproject/../build/tmp/zipaligned.apk
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.Compiler runZipAlign
+INFO: ZIPALIGN time: 0.015 seconds
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.Compiler setProgress
+INFO: The current progress is 100%
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.BuildServer build
+INFO: Build output: ________Preparing application icon<br>________Creating animation xml<br>________Determining permissions<br>________Generating manifest file<br>________Attaching native libraries<br>________Copying native libraries<br>________Attaching component assets<br>________Compiling source files<br>(compiling appinventor/ai_test/HelloWorld/Screen1.yail to appinventor.ai_test.HelloWorld.Screen1)<br>(compiling /tmp/runtime7286994403497167777.scm to com.google.youngandroid.runtime)<br>Kawa compile time: 1.344 seconds<br>________Invoking DX<br>DX time: 20.965 seconds<br>________Invoking AAPT<br>AAPT time: 0.095 seconds<br>________Invoking ApkBuilder<br>________Signing the apk file<br>________ZipAligning the apk file<br>ZIPALIGN time: 0.015 seconds<br>Build finished in 24.28 seconds<br>
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.BuildServer build
+INFO: Build error output: 
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 10662768 bytes
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: CallbackURL: http://localhost:8888/ode2/receivebuild/d7ymq2dl984sukwo4tfomojub1ls248c6n9rlzukl11a27qpkr4h5a2ahuregvhk23jxj9yhx81y11b6hghdaikepwfxgayumtmf6qw3gf4vdc8e94ooncrmin3xb7sz8pykuwwvs9/build/Android
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 11803320 bytes
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 11816128 bytes
+Dec 25, 2013 12:17:56 AM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: BUILD 1 FINISHED

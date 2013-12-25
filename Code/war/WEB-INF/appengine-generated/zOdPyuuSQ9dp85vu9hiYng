@@ -1,0 +1,19 @@
+<xml>
+  <block type="component_event" x="41" y="26">
+    <mutation component_type="Button" instance_name="Button1" event_name="Click"></mutation>
+    <title name="COMPONENT_SELECTOR">Button1</title>
+    <statement name="DO">
+      <block type="component_set_get" inline="false">
+        <mutation component_type="Canvas" set_or_get="set" property_name="BackgroundColor" is_generic="false" instance_name="Canvas1"></mutation>
+        <title name="COMPONENT_SELECTOR">Canvas1</title>
+        <title name="PROP">BackgroundColor</title>
+        <value name="VALUE">
+          <block type="color_green">
+            <title name="COLOR">#00ff00</title>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="82" language-version="17"></yacodeblocks>
+</xml>

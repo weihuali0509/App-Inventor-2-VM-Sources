@@ -1,0 +1,268 @@
+Dec 24, 2013 11:49:19 PM com.sun.jersey.api.core.ClasspathResourceConfig init
+INFO: Scanning for root resource and provider classes in the paths:
+  activation-1.1.jar
+  jersey-bundle-1.3.jar
+  args4j-2.0.18.jar
+  jersey-multipart-1.3.jar
+  asm-3.1.jar
+  jettison-1.1.jar
+  BuildServer.jar
+  json.jar
+  CommonUtils.jar
+  jsr311-api-1.1.1.jar
+  CommonVersion.jar
+  localizer.jar
+  FastInfoset-1.2.2.jar
+  mail-1.4.jar
+  grizzly-servlet-webserver-1.9.18-i.jar
+  commons-io-2.0.1.jar
+  guava-14.0.1.jar
+  rome-0.9.jar
+  http-20070405.jar
+  bcprov-jdk15on-149.jar
+  bcpkix-jdk15on-149.jar
+  sdklib.jar
+  jackson-core-asl-1.9.4.jar
+  stax-api-1.0-2.jar
+  jaxb-api-2.1.jar
+  wadl2java.jar
+  jaxb-impl-2.1.10.jar
+  wadl-cmdline.jar
+  jaxb-xjc.jar
+  wadl-core.jar
+  jdom-1.0.jar
+Dec 24, 2013 11:49:20 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.google.appinventor.buildserver.BuildServer
+Dec 24, 2013 11:49:20 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Dec 24, 2013 11:49:20 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.3 06/17/2010 05:04 PM'
+Dec 24, 2013 11:49:21 PM com.sun.grizzly.Controller logVersion
+INFO: Starting Grizzly Framework 1.9.18-i - Tue Dec 24 23:49:21 EST 2013
+Dec 24, 2013 11:49:21 PM com.sun.grizzly.SelectorHandlerRunner handleSelectException
+SEVERE: doSelect IOException
+java.net.BindException: Address already in use: 9990=com.sun.grizzly.http.SelectorThreadHandler@204461
+	at com.sun.grizzly.TCPSelectorHandler.initSelector(TCPSelectorHandler.java:446)
+	at com.sun.grizzly.TCPSelectorHandler.preSelect(TCPSelectorHandler.java:393)
+	at com.sun.grizzly.SelectorHandlerRunner.doSelect(SelectorHandlerRunner.java:183)
+	at com.sun.grizzly.SelectorHandlerRunner.run(SelectorHandlerRunner.java:130)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+Dec 24, 2013 11:49:21 PM com.sun.grizzly.http.SelectorThread$3 onException
+SEVERE: Exception during starting the controller
+java.net.BindException: Address already in use: 9990=com.sun.grizzly.http.SelectDec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer buildAllFromZipFileAsync
+INFO: requiredHosts is not set, no restriction on callback url.
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: START NEW BUILD 1
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 9040672 bytes
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.ProjectBuilder build
+INFO: temporary project root: /tmp/1387947270834_0.8902005173255594-0
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947270834_0.8902005173255594-0/src/appinventor/ai_test/HelloWorld/Screen1.bky from input zip
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947270834_0.8902005173255594-0/src/appinventor/ai_test/HelloWorld/Screen1.scm from input zip
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947270834_0.8902005173255594-0/src/appinventor/ai_test/HelloWorld/Screen1.yail from input zip
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947270834_0.8902005173255594-0/youngandroidproject/project.properties from input zip
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947270834_0.8902005173255594-0/android.keystore from input zip
+java.io.FileNotFoundException: /home/appinventor/Desktop/App-Inventor-Sources/lib/BuildServer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:153)
+	at java.util.jar.JarFile.<init>(JarFile.java:90)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:84)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:150)
+	at java.net.URL.openStream(URL.java:1037)
+	at com.google.common.io.Resources$UrlByteSource.openStream(Resources.java:82)
+	at com.google.common.io.ByteSource$AsCharSource.openStream(ByteSource.java:287)
+	at com.google.common.io.CharSource.read(CharSource.java:136)
+	at com.google.common.io.Resources.toString(Resources.java:136)
+	at com.google.appinventor.buildserver.Compiler.loadJsonInfo(Compiler.java:1146)
+	at com.google.appinventor.buildserver.Compiler.generateLibraryNames(Compiler.java:228)
+	at com.google.appinventor.buildserver.Compiler.compile(Compiler.java:495)
+	at com.google.appinventor.buildserver.ProjectBuilder.build(ProjectBuilder.java:163)
+	at com.google.appinventor.buildserver.BuildServer.build(BuildServer.java:491)
+	at com.google.appinventor.buildserver.BuildServer.buildAndCreateZip(BuildServer.java:446)
+	at com.google.appinventor.buildserver.BuildServer.access$300(BuildServer.java:65)
+	at com.google.appinventor.buildserver.BuildServer$1.run(BuildServer.java:385)
+	at com.google.appinventor.buildserver.NonQueuingExecutor$1.run(NonQueuingExecutor.java:51)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.NullPointerException
+	at java.util.AbstractCollection.addAll(AbstractCollection.java:341)
+	at com.google.appinventor.buildserver.Compiler.generateLibraryNames(Compiler.java:241)
+	at com.google.appinventor.buildserver.Compiler.compile(Compiler.java:495)
+	at com.google.appinventor.buildserver.ProjectBuilder.build(ProjectBuilder.java:163)
+	at com.google.appinventor.buildserver.BuildServer.build(BuildServer.java:491)
+	at com.google.appinventor.buildserver.BuildServer.buildAndCreateZip(BuildServer.java:446)
+	at com.google.appinventor.buildserver.BuildServer.access$300(BuildServer.java:65)
+	at com.google.appinventor.buildserver.BuildServer$1.run(BuildServer.java:385)
+	at com.google.appinventor.buildserver.NonQueuingExecutor$1.run(NonQueuingExecutor.java:51)
+	at java.lang.Thread.run(Thread.java:744)
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer build
+INFO: Build output: 
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer build
+INFO: Build error output: Server error performing build
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 8907704 bytes
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer buildAndCreateZip
+SEVERE: Build 1 Failed: 1 Server error performing build
+Dec 24, 2013 11:54:30 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: CallbackURL: http://localhost:8888/ode2/receivebuild/d7ymq2dllpnav5nzdqikqncd9anw8b0dthmvc4uz76hmo7zn76lt0icnl2ne2qt2qmtxb8l1oqpwys87n8g1uirqsdjqcsi4fnjbptkxf9ehcwvi8duqdlft9d5kpaf87i5yz9e8l7/build/Android
+Dec 24, 2013 11:54:31 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 7904912 bytes
+Dec 24, 2013 11:54:31 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 1 current used memory: 7917712 bytes
+Dec 24, 2013 11:54:31 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: BUILD 1 FINISHED
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer buildAllFromZipFileAsync
+INFO: requiredHosts is not set, no restriction on callback url.
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: START NEW BUILD 2
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 2 current used memory: 8053672 bytes
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.ProjectBuilder build
+INFO: temporary project root: /tmp/1387947299761_0.8482787433295795-0
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947299761_0.8482787433295795-0/src/appinventor/ai_test/HelloWorld/Screen1.bky from input zip
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947299761_0.8482787433295795-0/src/appinventor/ai_test/HelloWorld/Screen1.scm from input zip
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947299761_0.8482787433295795-0/src/appinventor/ai_test/HelloWorld/Screen1.yail from input zip
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947299761_0.8482787433295795-0/youngandroidproject/project.properties from input zip
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947299761_0.8482787433295795-0/android.keystore from input zip
+java.io.FileNotFoundException: /home/appinventor/Desktop/App-Inventor-Sources/lib/BuildServer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:153)
+	at java.util.jar.JarFile.<init>(JarFile.java:90)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:84)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:150)
+	at java.net.URL.openStream(URL.java:1037)
+	at com.google.common.io.Resources$UrlByteSource.openStream(Resources.java:82)
+	at com.google.common.io.ByteSource$AsCharSource.openStream(ByteSource.java:287)
+	at com.google.common.io.CharSource.read(CharSource.java:136)
+	at com.google.common.io.Resources.toString(Resources.java:136)
+	at com.google.appinventor.buildserver.Compiler.loadJsonInfo(Compiler.java:1146)
+	at com.google.appinventor.buildserver.Compiler.generateLibraryNames(Compiler.java:228)
+	at com.google.appinventor.buildserver.Compiler.compile(Compiler.java:495)
+	at com.google.appinventor.buildserver.ProjectBuilder.build(ProjectBuilder.java:163)
+	at com.google.appinventor.buildserver.BuildServer.build(BuildServer.java:491)
+	at com.google.appinventor.buildserver.BuildServer.buildAndCreateZip(BuildServer.java:446)
+	at com.google.appinventor.buildserver.BuildServer.access$300(BuildServer.java:65)
+	at com.google.appinventor.buildserver.BuildServer$1.run(BuildServer.java:385)
+	at com.google.appinventor.buildserver.NonQueuingExecutor$1.run(NonQueuingExecutor.java:51)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.NullPointerException
+	at java.util.AbstractCollection.addAll(AbstractCollection.java:341)
+	at com.google.appinventor.buildserver.Compiler.generateLibraryNames(Compiler.java:241)
+	at com.google.appinventor.buildserver.Compiler.compile(Compiler.java:495)
+	at com.google.appinventor.buildserver.ProjectBuilder.build(ProjectBuilder.java:163)
+	at com.google.appinventor.buildserver.BuildServer.build(BuildServer.java:491)
+	at com.google.appinventor.buildserver.BuildServer.buildAndCreateZip(BuildServer.java:446)
+	at com.google.appinventor.buildserver.BuildServer.access$300(BuildServer.java:65)
+	at com.google.appinventor.buildserver.BuildServer$1.run(BuildServer.java:385)
+	at com.google.appinventor.buildserver.NonQueuingExecutor$1.run(NonQueuingExecutor.java:51)
+	at java.lang.Thread.run(Thread.java:744)
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer build
+INFO: Build output: 
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer build
+INFO: Build error output: Server error performing build
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 2 current used memory: 8065184 bytes
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer buildAndCreateZip
+SEVERE: Build 2 Failed: 1 Server error performing build
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: CallbackURL: http://localhost:8888/ode2/receivebuild/d7ymq2dl0klzqke4avlfnhihpf2vpwecr9k8u5va0lusg668nmzpx3dcm6ia6o7cckwx9lb9oukhuni7qiu2x2ftt9jqtuftqb4z879hwmi5pluvek9lf5yagyx4thboo2qjlku9f4/build/Android
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 2 current used memory: 8136960 bytes
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 2 current used memory: 8007064 bytes
+Dec 24, 2013 11:54:59 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: BUILD 2 FINISHED
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer buildAllFromZipFileAsync
+INFO: requiredHosts is not set, no restriction on callback url.
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: START NEW BUILD 3
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 3 current used memory: 8044232 bytes
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.ProjectBuilder build
+INFO: temporary project root: /tmp/1387947383211_0.827179659334625-0
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947383211_0.827179659334625-0/src/appinventor/ai_test/HelloWorld/Screen1.bky from input zip
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947383211_0.827179659334625-0/src/appinventor/ai_test/HelloWorld/Screen1.scm from input zip
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947383211_0.827179659334625-0/src/appinventor/ai_test/HelloWorld/Screen1.yail from input zip
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947383211_0.827179659334625-0/youngandroidproject/project.properties from input zip
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.ProjectBuilder extractProjectFiles
+INFO: extracting /tmp/1387947383211_0.827179659334625-0/android.keystore from input zip
+java.io.FileNotFoundException: /home/appinventor/Desktop/App-Inventor-Sources/lib/BuildServer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:215)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:145)
+	at java.util.jar.JarFile.<init>(JarFile.java:153)
+	at java.util.jar.JarFile.<init>(JarFile.java:90)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:84)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:150)
+	at java.net.URL.openStream(URL.java:1037)
+	at com.google.common.io.Resources$UrlByteSource.openStream(Resources.java:82)
+	at com.google.common.io.ByteSource$AsCharSource.openStream(ByteSource.java:287)
+	at com.google.common.io.CharSource.read(CharSource.java:136)
+	at com.google.common.io.Resources.toString(Resources.java:136)
+	at com.google.appinventor.buildserver.Compiler.loadJsonInfo(Compiler.java:1146)
+	at com.google.appinventor.buildserver.Compiler.generateLibraryNames(Compiler.java:228)
+	at com.google.appinventor.buildserver.Compiler.compile(Compiler.java:495)
+	at com.google.appinventor.buildserver.ProjectBuilder.build(ProjectBuilder.java:163)
+	at com.google.appinventor.buildserver.BuildServer.build(BuildServer.java:491)
+	at com.google.appinventor.buildserver.BuildServer.buildAndCreateZip(BuildServer.java:446)
+	at com.google.appinventor.buildserver.BuildServer.access$300(BuildServer.java:65)
+	at com.google.appinventor.buildserver.BuildServer$1.run(BuildServer.java:385)
+	at com.google.appinventor.buildserver.NonQueuingExecutor$1.run(NonQueuingExecutor.java:51)
+	at java.lang.Thread.run(Thread.java:744)
+java.lang.NullPointerException
+	at java.util.AbstractCollection.addAll(AbstractCollection.java:341)
+	at com.google.appinventor.buildserver.Compiler.generateLibraryNames(Compiler.java:241)
+	at com.google.appinventor.buildserver.Compiler.compile(Compiler.java:495)
+	at com.google.appinventor.buildserver.ProjectBuilder.build(ProjectBuilder.java:163)
+	at com.google.appinventor.buildserver.BuildServer.build(BuildServer.java:491)
+	at com.google.appinventor.buildserver.BuildServer.buildAndCreateZip(BuildServer.java:446)
+	at com.google.appinventor.buildserver.BuildServer.access$300(BuildServer.java:65)
+	at com.google.appinventor.buildserver.BuildServer$1.run(BuildServer.java:385)
+	at com.google.appinventor.buildserver.NonQueuingExecutor$1.run(NonQueuingExecutor.java:51)
+	at java.lang.Thread.run(Thread.java:744)
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer build
+INFO: Build output: 
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer build
+INFO: Build error output: Server error performing build
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 3 current used memory: 8055680 bytes
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer buildAndCreateZip
+SEVERE: Build 3 Failed: 1 Server error performing build
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: CallbackURL: http://localhost:8888/ode2/receivebuild/d7ymq2dl51m8pneh0a4rcxjtuaz3rrhgsdhqlayh6whr63v3bpbwair3iep02j5t3ci5ewt7pdbp4xreqypjd4t8oy1me088ayh9zrq7e885e8s58ek508f9r5abgzwuihwx9eo9k8/build/Android
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 3 current used memory: 8073720 bytes
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer checkMemory
+INFO: Build 3 current used memory: 8003552 bytes
+Dec 24, 2013 11:56:23 PM com.google.appinventor.buildserver.BuildServer$1 run
+INFO: BUILD 3 FINISHED
