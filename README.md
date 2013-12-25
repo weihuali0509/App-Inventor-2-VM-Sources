@@ -1,23 +1,8 @@
 App-Inventor-2-VM-Sources
 =========================
 
-If you have your own linux box and want to try out App Inventor locally, please follow the instructions -
-(You must have Apache Ant and Oracle Java 7 installed) 
+English Instruction -
+https://github.com/weihuali0509/App-Inventor-2-VM-Sources/wiki/English-Instruction
 
-* "Git clone" the folder - App-Inventor-2-VM-Sources
-
-* Place that into your desired location
-
-* Open the folder - App-Inventor-2-VM-Sources 
-
-* Change the folder path in the command file - Start-BuildServer.sh 
-
-* Change the folder path in the command file - Start-DevServer.sh
-
-* Launching the file - Start-BuildServer.sh, with the terminal
-
-* Launching the file - Start-DevServer.sh, with the terminal
-
-* Visit localhost:8888, for the Web UI
-
-* Visit localhost:9990/buildserver/vars, for the build server info
+中文介绍 - 
+https://github.com/weihuali0509/App-Inventor-2-VM-Sources/wiki/%E4%B8%AD%E6%96%87%E4%BB%8B%E7%BB%8D
